@@ -14,4 +14,4 @@
 - cd backend 
 - create .env file 
 - add the line => ATLAS_URI = mongodb-atlas-connection-uri (without quotes)
-- that's your connection is ok
+- that's your connection is ok.
