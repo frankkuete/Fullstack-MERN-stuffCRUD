@@ -7,7 +7,8 @@ const path = require('path');
 
 app.use(express.json())
 
-mongoose.connect('mongodb+srv://frank:0000azKU@cluster0.fkgrw.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+const uri = process.env.ATLAS_URI
+mongoose.connect(uri,
     {
         useNewUrlParser: true,
         useUnifiedTopology: true
